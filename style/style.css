@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-/* @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap'); */
 
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&display=swap');
+.nav-spen{
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 .inter-normal{
     font-family: "Inter", sans-serif;
   }
@@ -20,9 +25,6 @@
   .color{
     background: rgb(0, 0, 0);
   }
-  .none{
-    display: none;
-  }
   .all-btn{
     font-size: 1.1rem;
     color: rgb(255, 255, 255);
@@ -31,7 +33,6 @@
     padding: 14px 30px;
     background: rgb(230, 83, 60);
     border: none;
-    
    }
    .btn-1{
     margin-top: 30px;
@@ -42,11 +43,22 @@
    }
    .all-title{
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 6px;
+    margin-top: 30px;
    }
-   
+  .all-font{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+  } 
   /* sheard style ends here */
 
 /* header style */
@@ -71,10 +83,17 @@
     text-decoration: none;
     font-size: 1rem;
     font-weight: 400;
-    margin-right: 46px;
+    margin-right: 45px;
     color: rgb(255, 255, 255);
   }
-.font-style{
+  .list-link-style{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+  }
+.nav-title{
     font-size: 36px;
     font-weight: 800;
     color: rgb(230, 83, 60);
@@ -85,14 +104,14 @@
   font-weight: 600;
   border-radius: 46px;
   background: rgb(230, 83, 60);
-  padding:8px 15px;
+  padding:8px 20px;
   border: none;
 }
 .nav-list{
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 38px;
-    padding: 10px;
+    padding: 10px 4px;
 }
    /* navber style ends here */
 
@@ -113,7 +132,7 @@
     margin-bottom: 30px;
    }
    .nav-spen{
-    font-family: "Playwrite CU", cursive;
+    
    }
    .banner-description{
     color: rgba(255, 255, 255, 0.5);
@@ -131,8 +150,77 @@
 
    .banner-img{
     margin-top: 30px;
+    position: relative;
    }
-   /* banner style ends here */
+   /* banner-spasal-batton start  here*/
+   .banner-spasal-batton{
+    position: absolute;
+    top: 72%;
+    left: -30%;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+   }
+   .boll{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+    margin:23px 8px 23px 23px;
+   }
+   /* .ruted-simble{
+    background: rgb(250, 250, 249);
+    transform: rotate(90deg);
+    width: 15.12px;
+    height: 15.12px;
+   } */
+   .spasal-button-title{
+    color: rgb(250, 250, 249);
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 900;
+   }
+   .spasal-button-discription{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+   }
+  /* banner-spasal-batton ends here */
+
+  /* banner-spasal-batton-2 start here*/
+.banner-spasal-batton-2{
+  position: absolute;
+  top: 135px;
+  left: 250px;
+  display: flex;
+  align-items: center;
+  width: 193px;
+  height: 98px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+.spasal-button-title-2{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 900;
+  margin-top:1rem;
+  margin-left: 1.5rem;
+}
+.spasal-button-discription-2{
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 1.5rem;
+  margin-bottom:1rem;
+}
+  /* banner-spasal-batton-2 ends here*/
+
+  /* banner style ends here */
    
   /* habit section start here */
 .main{
@@ -149,21 +237,23 @@
 }
 .habits-title{
   color: rgb(255, 255, 255);
-  font-size: 48px;
+  font-size: 2.5rem;
   font-weight: 900;
   margin-bottom: 14px;
 }
 .habits-description{
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 60px;
+  width: 600px;
+  margin: 0 auto;
 }
 .cange-habit-decricaption{
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
+  width: 251px;
 }
 .cange-habit-img{
   border-radius: 50%;
@@ -209,15 +299,10 @@
 /* run exercije  section  ends here */
 
 /* spacal section start here */
-.spacal-containar{
-  background-color: rgba(255, 255, 255, 0.1);
-  height: 300px;
-  margin-top: 100px;
-}
 .spacal-section-title{
   color: aliceblue;
   margin-left: 25%;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 600;
   margin-top: 80px;
   margin-bottom: 10px;
@@ -225,8 +310,86 @@
 .spacal-section-driscipon{
   color: rgba(255, 255, 255, 0.5);
   margin-left: 25%;
+  width: 660px;
   font-size: 0.9rem;
   font-weight: 400;
+}
+.spacal-containar{
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 80px;
+}
+.bmi-calculator{
+  margin-top: 53px;
+  height: 420px;
+}
+.bmi-table{
+  width: 340px;
+  height: 200px;
+}
+table,th,td{
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+.calculator-title{
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+  padding-bottom: 53px;
+}
+.bmi-table th{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+}
+.bmi-table td{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+/* forms style */
+.forms{
+  margin-left: 130px;;
+}
+.form-title{
+  margin-top: 52px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+}
+.form-discription{
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  width: 600px;
+}
+.form{
+  /* width: 100%; */
+  margin-top: 34px;
+  width: 650px;
+}
+.input-fild-1{
+  width: 48%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.input-fild-2{
+  width: 48%;
+}
+.input-fild-3{
+  width: 48%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.option-1{
+  width: 48%;
+  color: rgba(255, 255, 255, 0.5);
+}
+.option-2{
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 40px;
 }
 /* spacal section ends here */
 
@@ -239,8 +402,8 @@
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  padding: 25px;
+  gap: 20px;
+  padding: 20px;
   background-color: rgb(255, 255, 255, 0.1);
   border-radius: 20px;
 }
@@ -253,14 +416,38 @@
 .team-description{
   color: rgb(255, 255, 255, 0.5);
   font-size: 1rem;
-  font-weight: 900;
+  font-weight: 400;
   margin-bottom: 14px;
+  width: 660px;
+  margin: 0 auto;
 }
 .team-img{
   width: 100%;
   border-radius: 20px;
   height: 350px;
 }
+
+/* pojition style start*/
+.team-style{
+  position: relative;
+}
+.pojition{
+  position: absolute;
+  top: 80%;
+}
+.mamber-title{
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
+.mamber-continer{
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 1rem;
+  margin-left: 1.5rem;
+}
+/* pojition style ends */
+
 /* teams section ends here */
 
 /* footer style here */
@@ -285,11 +472,14 @@
 .get-started-list{
   list-style: none;
 }
+.footer-title{
+  font-size: 4rem;
+}
 /*  */
 .foter-driscaption{
   color: rgb(255, 255, 255, 0.5);
   font-size: 1rem;
-  font-weight: 900;
+  font-weight: 400;
   margin-top: 2rem;
 }
 /*  */
@@ -297,24 +487,24 @@
 /*  */
 .get-started h1{
   color: rgb(255, 255, 255);
-  font-size: 48px;
-  font-weight: 900;
-  margin-bottom: 44px;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }
 
-.get-started-list{
+.list-item{
   color: rgb(255, 255, 255, 0.5);
   font-size: 1rem;
-  font-weight: 900;
-  margin-bottom: 80px;
-}
-.get-started-list li{
+  font-weight: 400;
   margin-bottom: 20px;
+}
+.buttom{
+  margin-bottom: 80px;
 }
 .fotter-last-title{
   color: rgb(255, 255, 255, 0.5);
-  font-size: 1rem;
-  font-weight: 900;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 /*  */
 /* /footer style ends here */
@@ -329,6 +519,20 @@
   .excrcizes,
   .banners{
     flex-direction: column;
+   }
+   .nav-list{
+    display: none;
+  }
+  .none{
+    display: none;
+  }
+  .banner-spasal-batton{
+    top: 43%;
+    left: -10%;
+   }
+   .banner-spasal-batton-2{
+    top: 40px;
+    left: 200px;
    }
    .banners {
     width: 100%;
@@ -353,12 +557,13 @@
    .banner-img{
     margin: 0 auto;
    }
+   .habits-description{
+    width: 90%;
+    margin: 0 auto;
+   }
   .cange-habit-decricaption{
     text-align: center;
     width: 251px;
-  }
-  .nav-list{
-    display: none;
   }
   .habits {
     padding: 0%;
@@ -403,6 +608,82 @@
       gap: 20px;
       width: 100%;
      }
+
+     .form-title{
+      margin-top: 0px;
+    }
+    .forms{
+      margin-left: 30px;
+      width: 300px;
+    }
+    .form-discription{
+      width: 415px;
+    }
+    .form{
+      width: 400px;
+      margin-top: 34px;
+    }
+    .form-containar{
+      width: 100%;
+    }
+    .input-fild-1{
+      width: 47%;
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+    .input-fild-2{
+      width: 47%;
+    }
+    .input-fild-3{
+      width: 47%;
+      margin-right: 15px;
+      margin-bottom: 15px;
+    }
+    .option-1{
+      width: 47%;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    .option-2{
+      width: 100%;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 40px;
+    }
+
+
+
+     .spacal-section-title{
+      margin-left: 5%;
+      margin-top: 40px;
+      margin-bottom: 10px;
+    }
+    .spacal-section-driscipon{
+      margin-left: 5%;
+      width: 353px;
+    }
+    .spacal-containar{
+      margin-top: 30px;
+    }
+    .spatal-driscipon{
+      flex-direction: column;
+    }
+    .calculator-title{
+      padding-bottom: 20px;
+      margin-left: 30px;
+    }
+    .bmi-table{
+      margin-left: 30px;
+    }
+    .bmi-calculator{
+      height: 300px;
+    }
+
+
+     .team-description{
+      width: 349px;
+    }
+
+
+
    .fitness{
     width: 100%;
    }
@@ -414,5 +695,8 @@
    }
    .foter-driscaption{
    margin-bottom: 50px;
+  }
+  .buttom{
+    margin-bottom: 70px;
   }
 }
