@@ -1,0 +1,813 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/miama');
+.inter-normal{
+    font-family: "Inter", sans-serif;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* sheard style start here */
+  .flax{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .fix-weidth{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .color{
+    background: rgb(0, 0, 0);
+  }
+  .all-btn{
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 16px 40px;
+    background: rgb(230, 83, 60);
+    border: none;
+   }
+   .btn-1{
+    margin-top: 30px;
+    margin-right: 18px;
+   }
+   .text-align{
+    text-align: center;
+   }
+  .all-font{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+  } 
+  /* sheard style ends here */
+
+/* header style */
+.header{
+  background: linear-gradient(
+    180.00deg,
+    rgba(22, 22, 22, 0.883) ,
+     rgba(2, 2, 2, 0.990)
+     100%);
+}
+
+/* navber style start here */
+  .header{
+    padding-top: 48px;
+  }
+  .list{
+    list-style: none;
+  }
+  .list-link{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 45px;
+    color: rgb(255, 255, 255);
+  }
+  .list-link-style{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+  }
+  .bars{
+    display: none;
+  }
+  .nav-title{
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+  }
+  .fast-link-style{
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 46px;
+  background: rgb(230, 83, 60);
+  padding:8px 20px;
+  border: none;
+}
+.nav-list{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 38px;
+    padding: 10px 4px;
+}
+   /* navber style ends here */
+
+   /* banner style start here */
+   .banners{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   }
+   .banner{
+    width: 30%;
+    margin-right: 100PX;
+    margin-top: 100px;
+   }
+   .banner-title{
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    line-height: 65px;
+   }
+   .nav-spen{
+    font-family: 'Miama', sans-serif;
+    font-size: 100px;
+    font-weight: 500;
+  }
+   .banner-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+   }
+   .btn-2{
+    color: rgba(255, 255, 255);
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 16px 40px;
+    background-color: rgba(58, 58, 58, 0);
+   }
+
+   .banner-img{
+    margin-top: 30px;
+    position: relative;
+   }
+   /* banner-spasal-batton start  here*/
+   .banner-spasal-batton{
+    position: absolute;
+    top: 72%;
+    left: -30%;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 90px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+   }
+   .boll{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+    margin:23px 8px 23px 23px;
+   }
+   /* .ruted-simble{
+    background: rgb(250, 250, 249);
+    transform: rotate(90deg);
+    width: 15.12px;
+    height: 15.12px;
+   } */
+   .spasal-button-title{
+    color: rgb(250, 250, 249);
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 900;
+   }
+   .spasal-button-discription{
+    color: rgba(239, 237, 232, 0.65);
+    font-size: 1rem;
+    font-weight: 400;
+   }
+  /* banner-spasal-batton ends here */
+
+  /* banner-spasal-batton-2 start here*/
+.banner-spasal-batton-2{
+  position: absolute;
+  top: 135px;
+  left: 250px;
+  display: flex;
+  align-items: center;
+  width: 193px;
+  height: 98px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+.spasal-button-title-2{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 900;
+  margin-top:1rem;
+  margin-left: 1.5rem;
+}
+.spasal-button-discription-2{
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 13px;
+  font-weight: 400;
+  margin-left: 1.5rem;
+  margin-bottom:1rem;
+}
+  /* banner-spasal-batton-2 ends here*/
+
+  /* banner style ends here */
+   
+  /* habit section start here */
+.main{
+  background: black;
+}
+.habits{
+  padding-top: 70px;
+}
+.habit{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 30px;
+}
+.all-title{
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 30px;
+ }
+.habits-title{
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.habits-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  width: 600px;
+  margin: 0 auto;
+}
+.cange-habit-decricaption{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  width: 251px;
+}
+.cange-habit-img{
+  border-radius: 50%;
+}
+.cange-habit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  /* habit section ends here */
+
+  /* run exercije  section start  here */
+  .excrcizes{
+    display: flex;
+    padding: 30px;
+    margin-top: 100px;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+  .exersize{
+    width: 40%;
+  }
+  .exersize-title{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top:10px;
+    width: 60%;
+  }
+  .exersize-decription{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    width: 443px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: 30px;
+  }
+.exersize-img{  
+  object-position: 70% 32.5%; 
+  object-fit: none;
+  height: 370px; 
+  border-radius: 18px;
+}
+/* run exercije  section  ends here */
+
+
+/* spasals section start here */
+
+.spasal{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 40px 0px rgba(255, 4, 4, 0.308);
+}
+.unick{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 900;
+  margin-top:50px;
+}
+.spasal-img-parent{
+  width: 50%;
+  overflow: hidden;
+
+}
+.spasal-img-caild{
+  width: 100%;
+  border-radius: 5px;
+  transition: transform 1s; 
+}
+.spasal-img-caild:hover{
+  transform:rotate(5deg)  scale(1.2);
+}
+.icon{
+  text-align: right;
+  padding-left: 102%;
+  padding-top: 3%;
+}
+.spasal-title{
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  margin-top:50px;
+  width: 80%;
+}
+
+.spasal-discription{
+  color: rgba(255, 255, 255);
+  font-size: 14px;
+  width: 70%;
+  font-weight: 400;
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+
+.spasal-form{
+  width: 50%;
+  padding:0px 50px 50px 50px;
+}
+
+.input{
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+}
+.button{
+  font-size: 1.1rem;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 16px 40px;
+  background: rgb(194, 134, 4);
+  border: none;
+  width: 100%;
+  margin-top: 30px;
+}
+.links{
+  margin-top: 20px;
+}
+.link-img{
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+/* spasals section ends here */
+
+/* challeng section start here */
+.challeng-section-title{
+  color: rgb(255, 255, 255);
+  margin-left: 25%;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+.challeng-section-driscipon{
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: 25%;
+  width: 610px;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.challeng-containar{
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-top: 80px;
+}
+.bmi-calculator{
+  margin-top: 53px;
+  height: 420px;
+}
+.bmi-table{
+  width: 340px;
+  height: 200px;
+  margin: 0 auto;
+}
+table,th,td{
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+.calculator-title{
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 900;
+  padding-bottom: 53px;
+}
+.bmi-table th{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+}
+.bmi-table td{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 20px;
+}
+/* forms style */
+.form-title{
+  margin-top: 52px;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+}
+.form-discription{
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  width: 600px;
+  margin-bottom: 20px;
+}
+.forms{
+  border: 2px solid red;
+  margin-left: 50px;
+  max-width: 680px;
+}
+
+/* challeng section ends here */
+
+/* teams section start here */
+.teams{
+  margin-top: 80px;
+  padding-bottom:100px;
+}
+.team{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255, 0.1);
+  border-radius: 20px;
+}
+.team-title{
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 14px;
+}
+.team-description{
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 14px;
+  width: 660px;
+  margin: 0 auto;
+}
+.team-img{
+  width: 100%;
+  border-radius: 20px;
+  height: 350px;
+}
+
+/* pojition style start*/
+.team-style{
+  position: relative;
+}
+.pojition{
+  position: absolute;
+  top: 80%;
+}
+.mamber-title{
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-left: 1.5rem;
+}
+.mamber-continer{
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 1rem;
+  margin-left: 1.5rem;
+}
+/* pojition style ends */
+
+/* teams section ends here */
+
+/* footer style  */
+.footer{
+  background: black;
+}
+.section{
+  padding-top: 80px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-style{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.fitness{
+  width: 33.33%;
+}
+.get-started{
+  list-style: none;
+}
+.get-started-list{
+  list-style: none;
+}
+.footer-title{
+  font-size: 4rem;
+}
+/*  */
+.foter-driscaption{
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 2rem;
+}
+/*  */
+
+/*  */
+.get-started h1{
+  color: rgb(255, 255, 255);
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.list-item{
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.buttom{
+  margin-bottom: 80px;
+}
+.fotter-last-title{
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/* /footer style ends here */
+
+  /* small devics responsive */
+  @media screen and (max-width:576px){
+    .habit,
+    .team{
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-style,
+  .excrcizes,
+  .banners,
+  .challeng-driscipon{
+    flex-direction: column;
+   }
+  .nav-list{
+    display: none;
+  }
+  .none{
+    display: none;
+  }
+  .bars{
+    display: block;
+    color:rgb(255, 255, 255);
+    font-size: 25px;
+    margin-right: 5px;
+  }
+  .banner-spasal-batton{
+    top: 43%;
+    left: -10%;
+  }
+  .banner-spasal-batton-2{
+    top: 40px;
+    left: 200px;
+  }
+  .banners{
+    width: 100%;
+  }
+  .banner{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .all-btn{
+    font-size: 1.1rem;
+    padding: 14px 30px;
+  }
+  .btn-2{
+    border-radius: 30px;
+    padding: 15px 20px;
+    width: 45%;
+    background-color: rgba(58, 58, 58, 0);
+  }
+  .btn-1{
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 10px;
+    padding: 15px 20px;
+    width: 45%;
+  }
+  .btn-style{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  .banner-title{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    line-height: 60px;
+    font-size: 3rem;
+    width: 70%;
+  }
+  .banner-description{
+    margin-bottom: 30px;
+    line-height: 30px;
+    width: 80%;
+  }
+  .banner-img{
+    margin: 0 auto;
+  }
+  .habits-description{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .cange-habit-decricaption{
+    text-align: center;
+    width: 251px;
+  }
+  .habits {
+    padding: 0%;
+  }
+  /* spasal part design*/
+  .spasal{
+    flex-direction: column-reverse;
+  }
+  .spasal{
+    box-shadow: none;
+  }
+  .unick{
+    margin-bottom: 50px;
+  }
+  .spasal-title{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-top:20px;
+    width: 100%;
+  }
+  
+  .spasal-discription{
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+  .spasal-form{
+    padding:0px 20px 20px 20px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 40px 0px rgba(255, 0, 0, 0.61);
+    margin-bottom: 40px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .icon{
+    text-align: right;
+    padding-left: 90%;
+    padding-top: 4%;
+  }
+  .spasal{
+    margin-top: 0px;
+  }
+  .spasal-img-parent{
+    width: 90%;
+    overflow: hidden;
+    margin-top: 30px;
+  }
+  .spasal-img-caild{
+    width: 100%;
+    transition: none; 
+  }
+  .spasal-img-caild:hover{
+    transform:none;
+  }
+
+
+
+  /* excrcizes part design */
+
+  .excrcizes{
+    margin: 30px;
+    margin-top: 70px;
+  }
+  .exersize{
+    width: 100%;
+  }
+  .exersize-title{
+    width: 100%;
+  }
+  .exersize-decription{
+    width: 100%;
+    line-height: 20px;
+    margin-bottom: 0px;
+  }
+  .exersize-img{
+    margin-top: 30px;
+    height: 250px; 
+    border-radius: 16px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .btn-3{
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  /* challinging-parent design */
+  .calculator-title{
+    padding-bottom: 20px;
+    margin-left: 30px;
+  }
+  .bmi-calculator{
+    height: 300px;
+  }
+
+  .bmi-table{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .challeng-section-title{
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .challeng-section-driscipon{
+    margin-left: 5%;
+    width: 332px;
+  }
+  .challeng-containar{
+    margin-top: 30px;
+  }
+
+  /* our team design */
+    .team{
+      margin: 5%;
+    }
+    .team-description{
+      width: 349px;
+    }
+    .team-img{
+      height: 280px;
+    }
+
+
+
+    /* footer design */
+
+   .fitness{
+    width: 100%;
+   }
+   .get-started{
+    width: 100%;
+   }
+   .section{
+    padding-left: 20px;
+   }
+   .foter-driscaption{
+   margin-bottom: 50px;
+  }
+  .buttom{
+    margin-bottom: 70px;
+  }
+}
