@@ -395,12 +395,15 @@
 /* spasals section ends here */
 
 /* challeng section start here */
+.challinging-parent{
+  border: 2px solid rebeccapurple;
+  margin-top: 80px;
+}
 .challeng-section-title{
   color: rgb(255, 255, 255);
   margin-left: 25%;
   font-size: 2rem;
   font-weight: 600;
-  margin-top: 80px;
   margin-bottom: 10px;
 }
 .challeng-section-driscipon{
@@ -412,20 +415,18 @@
 }
 .challeng-containar{
   background-color: rgba(255, 255, 255, 0.1);
-  margin-top: 80px;
+  margin-top: 50px;
+  padding-bottom: 30px;
+}
+.challeng-driscipon{
 }
 .bmi-calculator{
-  margin-top: 53px;
-  height: 420px;
+  margin-top: 50px;
+  width: 450px;
 }
 .bmi-table{
-  width: 340px;
-  height: 200px;
-  margin: 0 auto;
-}
-table,th,td{
-  border: 1px solid #ddd;
-  border-collapse: collapse;
+  width: 100%;
+  height: 300px;
 }
 .calculator-title{
   color: rgb(255, 255, 255);
@@ -433,6 +434,11 @@ table,th,td{
   font-weight: 900;
   padding-bottom: 53px;
 }
+table,th,td{
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
 .bmi-table th{
   color: rgb(255, 255, 255);
   font-size: 16px;
@@ -445,25 +451,25 @@ table,th,td{
   padding-left: 20px;
 }
 /* forms style */
+.forms{
+  border: 2px solid red;
+  max-width: 680px;
+}
 .form-title{
-  margin-top: 52px;
-  font-weight: 900;
   color: rgb(255, 255, 255);
-  font-size: 1.8rem;
+  font-size: 28px;
+  font-weight: 900;
+  margin-bottom: 1rem;
 }
 .form-discription{
-  margin-top: 14px;
   color: rgba(255, 255, 255, 0.5);
   font-size: 14px;
   font-weight: 400;
-  width: 600px;
-  margin-bottom: 20px;
+  margin-bottom: 1.5rem;
 }
-.forms{
-  border: 2px solid red;
-  margin-left: 50px;
-  max-width: 680px;
-}
+
+
+
 
 /* challeng section ends here */
 
@@ -755,21 +761,16 @@ table,th,td{
   /* challinging-parent design */
   .calculator-title{
     padding-bottom: 20px;
-    margin-left: 30px;
   }
   .bmi-calculator{
     height: 300px;
-  }
-
-  .bmi-table{
     width: 90%;
-    height: 200px;
-    margin: 0 auto;
   }
-
+  .bmi-table{
+    height: 200px;
+  }
   .challeng-section-title{
     margin-left: 5%;
-    margin-top: 40px;
     margin-bottom: 10px;
   }
   .challeng-section-driscipon{
